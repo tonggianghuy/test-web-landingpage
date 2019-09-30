@@ -7,24 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SARI</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/d8ca19a4a4.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <!--nav bar-->
     <nav>
-        <div class="wapper nav">
+        <div class="wapper navbar">
             <img class="nav-logo" src="./img/logo.png" alt="logo">
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-menu">
+                <i class="fas fa-ellipsis-h"></i>
+            </label>
             <ul class="nav-menu">
                 <li><a href="">về chúng tôi</a></li>
                 <li><a href="">tin tức</a></li>
                 <li><a href="">học bổng</a></li>
                 <li>
-                    <div class="button-pink"><a href="">làm bài kiểm tra</a></div>
+                    <span class="button-pink"><a class="color-white" href="">làm bài kiểm tra</a></span>
                 </li>
+                <li><label for="chk" class="hide-menu">
+                        <i class="fas fa-times"></i>
+                    </label></li>
             </ul>
         </div>
     </nav>
-
-    <div class="clearfix"></div>
 
     <div class="second">
         <div class="wapper change-link">
@@ -37,7 +45,7 @@
 
 
     <header>
-        <div class="header-wap wapper">
+        <div class="wapper header-info">
             <div><span class="header-title">Danh sách trường đại<br /> học tại Anh quốc</span>
                 <p class="header-content">Dưới đây là danh sách tất cả các trường đại học<br /> tại anh. Chúng tôi hiện
                     sở
@@ -45,18 +53,243 @@
                     liệu<br /> toàn diện nhất về các trường đại học trên thế giới.</p>
             </div>
             <div class="search-bar">
-                <div class="header-search"><input class="header-input" type="text" name="" id=""
-                        placeholder="nhập tên trường">
+                <div class="header-search">
+                    <input class="header-input" type="text" name="" id="" placeholder="nhập tên trường">
                     <div class="header-button button-pink"><a href="">Tìm kiếm</a></div>
                 </div>
+
             </div>
 
 
         </div>
+        <img src="/img/header.png" alt="" class="header-bg">
     </header>
-    <div>
 
-    </div>
+    <section>
+        <div class="section-info">
+            <div class="section-header wapper">
+                <div><i class="fas fa-bars"></i>
+                    <i class="fas fa-stream"></i>
+                </div>
+                <div class="section-filter">
+                    <div class="section-nation">
+                        <input type="text" name="" id="" placeholder="Quốc gia">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="section-topic">
+                        <input type="text" name="" id="" placeholder="Sắp xếp theo">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="section-result">
+            <div class="section-table wapper">
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <img src="./img/logoschool1.png" alt="">
+                    <h2 class="result-title">University of Reading</h2>
+                    <table>
+                        <tr>
+                            <th>Quốc Gia</th>
+                            <th>: Anh Quốc</th>
+                        </tr>
+                        <tr>
+                            <th>Lượt xem</th>
+                            <th>: 10979</th>
+                        </tr>
+                        <tr>
+                            <th>Học Bổng</th>
+                            <th>: Có</th>
+                        </tr>
+                        <tr>
+                            <th>Học phí trung bình</th>
+                            <th>: $5.816</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </body>
 
 </html>
